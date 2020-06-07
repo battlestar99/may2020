@@ -1,0 +1,207 @@
+Eclipse : 
+
+1. eclipse companion library missing - 
+
+2. jre error with exit code - 13
+
+jdk but not having jre 
+
+Installation 
+
+jdk - compiler 
+
+jre - java runtime environment + java core library 
+jre - running any java software 
+java core library - without this you can not write your own code 
+
+eclipse - where you are going to write your code? - editor 
+eclipse is an intelligent editor for programming 
+
+What is a programming language? 
+
+its a language understood by the computer - java, c, python, c# 
+
+a lanugage understood by the computer which can give some instruction to the computer 
+
+compiler / interpreter 
+
+maching lagnuage - 101011010101010
+
+What we do in programming? 
+
+code Syntax - grammar of the code 
+
+set of instructions given to the computer - solve some problem
+
+1. data 
+2. conditions 
+3. repeat 
+
+you are hungry ? 
+
+eat - burger 
+what time you want to it- time - data
+can you eat now? if my instructor allows me to eat 
+
+java, how to store data and use it? number, name, random name, specific number of digits, food name
+
+datatype variable = data 
+
+15 - you have to make a memory space in your computer 
+burger - you have to make a memory space in your computer 
+
+
+integer > int can store any whole number - 10
+string > String
+double can store any decimal number 
+
+// declaring a variable 
+int x ; 
+int z;  
+String name; 
+double y; 
+
+// initializing a variable 
+
+x = 20; 
+z=50;
+x=14;
+
+x+z;
+
+name = "michael";
+
+Rule 1 : Java is a case sensitive language - A is differnet for a
+int Int
+
+Rule 2: when you are naming something, dont give any space , variable, class, method 
+
+int ac
+
+Java class - single unit of java code 
+create a class - 
+
+public class classname{
+ public static void main(String args[]){
+
+
+
+
+}
+
+
+}
+
+main method - starting point of executing your code, also  makes any class runnable 
+scope - class, methods, control statments are scope 
+
+starting point and ending point - { } 
+method - {}
+control statment - {}
+
+statement : ends with a ;
+
+integer, boolean, String 
+datatype variablename = variablevalue; 
+
+int count = 100; 
+double x = 25.25; 
+
+String carplate = "virginia";
+
+// declaretion and initialization at the same time 
+boolean flag = true; 
+
+true false
+// 
+
+int count; 
+
+count = 24; 
+
+
+
+
+
+
+
+how to create java class and main method? 
+datatype variable and data?
+rule; java case sensitive, dont give space in name
+
+
+
+data 
+
+control statment> 
+conditional
+repeat 
+
+
+
+
+
+Problem: 
+
+we need to create a car payment calculator? 
+
+requirements of the problem: 
+
+carprice, admin fee, warrenty, downpayment, installment, 
+
+interest rate 
+700 > 2 
+650> 4 
+650< 5 
+credit score 
+
+tax 
+
+15 percent of 200 - 15 
+
+
+15/100 X 200
+
+2 percnet of 2000 
+
+2/100 X 2000 + 2000
+
+1. Homework - 3/4 programming problems + questions that you have to write answers
+
+2. use all the codes we are doing in the class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

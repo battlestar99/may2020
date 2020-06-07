@@ -1,0 +1,54 @@
+
+2019 - january 
+
+50 requriements - 200 test cases - manually executing the test cases 
+
+automated test scripts - 200 test cases - 30 mins
+
+50+40 = 90 -400 test cases 
+
+start again at 12:30 PM 
+
+manual testing - manually executing some tests - software quality assurance
+type of testing/agile-scrum, jira, 
+lunch Break 
+
+
+
+
+
+Java - as 
+
+computer environment - 
+
+jdk - java developement kit - version 8 
+
+eclipse - progamming editor - to write your own code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
