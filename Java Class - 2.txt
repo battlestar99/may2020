@@ -1,0 +1,255 @@
+Java Class - 2 
+
+anik@agile1tech.com 
+
+jdk + eclipse editor 
+
+class is the single unit that we need to create for writing any java code 
+ 2 types of class in java - OOP 
+class - main method - run the class 
+class - no main method - not able to run the class 
+
+public class mortagecalculator{
+
+public static void main(String args[]){
+
+
+
+}
+
+}
+
+
+
+
+
+OOP - java library - class - object - function
+
+class - main method/main function - we can run it - runnable class 
+if we want to execute the code - 
+
+non-runnable class - no main method - we can not run it - non-runnable class 
+method / function 
+properties - global variables - attributes of the class 
+
+function: 
+1. lines of codes that get executed upon called 
+2. functions holds codes that is re-usuable 
+
+function can do specific things - 
+
+as a programmar we can create functions
+or we can use other people function that is already created 
+
+what to learn about function : 
+
+1. how to create a function 
+
+2. how to use a function 
+ a. function created by yourself 
+
+ b. function created by some other programers 
+
+
+input > function > output 
+
+parameters, arguments > functtion > return / return type 
+
+
+
+I am going to create a function that can add two numbers
+
+
+public outputdatatype functionname(inputs ......){
+
+
+
+}
+
+how to create an object of a class 
+
+classname objectname = new classname(); 
+
+
+
+functions we create in non-runnable class
+functions we use from runnable class , non-runnable class 
+
+public boolean checkvalue(String x, double y){
+
+
+
+}
+
+
+
+Functions - return 
+boolean > 
+
+int, string, boolean 
+
+why 
+how 
+
+1. how to create a function 
+
+2. how to use a function 
+ a. function created by yourself 
+
+ b. function created by some other programers - library - selenium, testng, cucumber
+
+Java - programming lanaguage - jdk > java core library + jre > data, conditions, repeation 
+
+functions 
+
+how to create a function
+
+public int getNumber(String x, boolean y, int z) {
+
+// write your code here 
+
+return 34; 
+
+
+}
+
+// out put will be one string and input will be 2 numbers 
+// your function will return "number1 is larger than number2" if number1 is larger than number2 
+so you have to tak two numbers as input and compare them 
+
+number1 = 50
+number2 = 20 
+
+public String getcomparision(int number1, int number2){
+
+String x = "test";
+
+if (number1>number2){
+
+x="number1 is larger than number2";
+
+}
+
+else{
+
+x="number1 is not larger than number2";
+
+}
+
+return x; 
+
+
+
+
+}
+
+
+
+
+How to use a function: 
+
+1. from which class the function is coming 
+
+2. creating an object of the class > object is a copy of the class 
+
+
+if a webelemet in present in the page, a function will check it an return true, if the webelement is not
+presnet in the page, the function will return false 
+
+
+OOP 
+local variables > global variables 
+static vs non-static 
+
+// non-static function
+// static function
+
+
+
+
+
+
+
+
+
+
+functions > proecedural programming , traditional progamming 
+function is a procedure we create to use again and again,
+
+function > Object oriented programming, 
+what an object can do is a function
+what an object can hold is a property 
+
+
+
+
+
+class is a prototype or design of a system used by the objects 
+
+class is design of a building - class , doors, windows, scale,  
+
+100 building - objects are implementation of a design 
+
+OOP - 
+
+you have some attribues > properties - global variables 
+you can do something > run, walk, computer programming - functions 
+
+
+
+
+
+
+
+programming library - 
+3rd party library -whatever not coming from jdk 
+core java library comes from jdk 
+
+library - connect a specific version of remote with my car 
+
+library - I can share that with all other programmers 
+
+web bases application testing - interaction web application 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

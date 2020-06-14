@@ -14,6 +14,11 @@ public class conditionalTest {
 		int y = 100; 
 		
 		
+		int z = 45;
+		
+		y=z+10;
+		
+		
 		y=20;
 		
 		

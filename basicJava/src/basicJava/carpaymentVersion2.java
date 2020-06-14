@@ -30,8 +30,6 @@ public class carpaymentVersion2 {
 		System.out.println("Enter number of installment");
 		int numberofInstallment = sc.nextInt();  
 		
-	
-		
 		
 		double finalcarprice; 
 		double carpriceWithInterest;
