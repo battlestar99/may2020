@@ -55,6 +55,88 @@ programming library -
 
 
 
+browser - chrome, mozila , internet explorer , safari, opera 
+
+
+browser installed in your computer 
+browser driver file
+
+
+Selenium library - anything happening within the browser 
+
+something is happening with browser 
+things are happending with web elements 
+
+the components of the web application that any user can interact with 
+
+text box - we can type something
+button - we can click
+link - we can click and navigate us to new page
+drop down - we select something from drop down
+radio button or check box 
+
+person 
+name = anik
+address - fairfax
+ssn - 3432
+car
+
+web element has also attributes - value of the attribute 
+
+name
+id
+
+interaching with web element 
+
+1. finding web element 
+2. action - interacting with the web element 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
