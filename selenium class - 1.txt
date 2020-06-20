@@ -1,0 +1,60 @@
+classes - 
+
+main method - runnable 
+
+without main method - non runnable - storing functions 
+procudural - storing functions 
+oop - prototype of design of object 
+
+
+1. functions -  how to create 
+home - go function is in home class 
+public void go(String x){
+
+ 
+}
+
+
+
+
+2. functions - how to use 
+
+home h = new home(); 
+
+h.go("dfkjfd");
+
+selenium library - collection of non-runnable classes 
+jar file 
+jdbc, appium, rest assured,
+non-runanble classes - collection of functions and properties 
+
+selenium library - 2000 functions - interact with web application that runs in a browser 
+appium - mobile application 
+rest assured - web service 
+
+1. opening browser
+2. naviagting to url
+3. enter login username
+4. click login button
+5. check if login is successfull 
+
+comparing expected result with actual result 
+final result - test pass or fail
+
+validate - requirements 
+
+req - 1001 - 5 test cases - 1001 validated 
+
+regression testing - 500 test cases 
+
+
+programming library -  
+
+
+
+
+
+
+
+
+

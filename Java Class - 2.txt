@@ -211,6 +211,15 @@ library - I can share that with all other programmers
 
 web bases application testing - interaction web application 
 
+library - jar file 
+packages > classes/non runnable classes> functions 
+
+selenium library - jar files > all the functions we need for interacting with web browser 
+
+
+
+
+
 
 
 
