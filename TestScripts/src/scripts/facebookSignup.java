@@ -2,6 +2,7 @@ package scripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class facebookSignup {
@@ -12,21 +13,33 @@ public class facebookSignup {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rznan\\Desktop\\programming libraries\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
+		driver.manage().deleteAllCookies();
+		
+		//maximizing window
+		
+		driver.manage().window().maximize();
 		
 		driver.get("https://www.facebook.com/signup");
 		
 		Thread.sleep(2000);
 		
 		// entering first name
-		driver.findElement(By.id("u_0_n")).sendKeys("Michael");
+		
+		WebElement firstName = driver.findElement(By.id("u_0_n"));
+		firstName.sendKeys("Michael");
+		firstName.clear();
 
 		Thread.sleep(1000);
 		// enterting last name
-		driver.findElement(By.id("u_0_p")).sendKeys("jordan");
+		
+		WebElement lastName = driver.findElement(By.id("u_0_p"));
+		lastName.sendKeys("jordan");
 		
 		Thread.sleep(1000);
 		// entering email
-		driver.findElement(By.name("reg_email__")).sendKeys("jordan@test.com");
+		
+		WebElement email = driver.findElement(By.name("reg_email__"));
+		email.sendKeys("jordan@test.com");
 		
 		// entering password 
 		

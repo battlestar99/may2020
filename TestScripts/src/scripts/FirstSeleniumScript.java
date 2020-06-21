@@ -28,6 +28,9 @@ public class FirstSeleniumScript {
 		
 		String title = driver.getTitle();
 		
+		
+
+		
 		System.out.println(title);
 		
 		Thread.sleep(2000);

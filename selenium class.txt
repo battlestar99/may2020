@@ -1,0 +1,198 @@
+classes - 
+
+main method - runnable 
+
+without main method - non runnable - storing functions 
+procudural - storing functions 
+oop - prototype of design of object 
+
+
+1. functions -  how to create 
+home - go function is in home class 
+public void go(String x){
+
+ 
+}
+
+
+
+
+2. functions - how to use 
+
+home h = new home(); 
+
+h.go("dfkjfd");
+
+selenium library - collection of non-runnable classes 
+jar file 
+jdbc, appium, rest assured,
+non-runanble classes - collection of functions and properties 
+
+selenium library - 2000 functions - interact with web application that runs in a browser 
+appium - mobile application 
+rest assured - web service 
+
+1. opening browser
+2. naviagting to url
+3. enter login username
+4. click login button
+5. check if login is successfull 
+
+comparing expected result with actual result 
+final result - test pass or fail
+
+validate - requirements 
+
+req - 1001 - 5 test cases - 1001 validated 
+
+regression testing - 500 test cases 
+
+
+programming library -  
+
+
+
+
+
+
+browser - chrome, mozila , internet explorer , safari, opera 
+
+
+browser installed in your computer 
+browser driver file
+
+
+Selenium library - anything happening within the browser 
+
+something is happening with browser 
+things are happending with web elements 
+
+the components of the web application that any user can interact with 
+
+text box - we can type something
+button - we can click
+link - we can click and navigate us to new page
+drop down - we select something from drop down
+radio button or check box 
+
+person 
+name = anik
+address - fairfax
+ssn - 3432
+car
+
+web element has also attributes - value of the attribute 
+
+name
+id
+
+interaching with web element 
+
+1. finding web element 
+2. action - interacting with the web element 
+
+
+
+
+Class Topic - 
+
+Storing web elements in webelement variables and using them? 
+
+how to find webelements? 
+how to interact with drop down? 
+how to interact with links? 
+How to use wait? 
+
+text box
+drop down
+button
+links
+radion button
+check box
+
+
+attribute - value 
+
+id 
+name 
+xpath 
+css selector 
+
+
+
+if we want to find multiple web elements 
+driver.finelements
+tagname
+classname
+
+
+link 
+anchor tag> a tag 
+linktext
+partiallinktext 
+
+
+code for the first name - HTML / CSS 
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="firstname" 
+value="" aria-required="true" placeholder="" aria-label="First name" id="u_0_n" aria-describedby="js_3hw">
+
+drop down menu 
+
+<select aria-label="Month" name="birthday_month" id="month" title="Month" class="_9407 _5dba _8esg"><option value="0">Month</option><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6" selected="1">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">
+Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select>
+
+link 
+
+<a href="/lite/" title="Facebook Lite for Android.">Facebook Lite</a>
+
+
+id and name 
+
+linktext / partiallinktext 
+
+
+//*[@id="u_0_p"]
+
+//*[@id="u_0_n"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
