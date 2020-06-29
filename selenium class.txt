@@ -103,76 +103,307 @@ how to interact with drop down?
 how to interact with links? 
 How to use wait? 
 
-text box
-drop down
-button
-links
-radion button
-check box
+
+what is a webelement or web object? - end user can interact in a web page 
+
+pritmitive data 
+int x = 12; 
+
+reference datatype 
+car c = new car();
 
 
-attribute - value 
+WebElement 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Selenium Class - 3 
+
+writing code - how to use the functions , right functions
+Use case - 
+test case - 10 ways - 10 differnt ways 
+
+regression - 200 test cases 
+
+100 requirements -250 test cases -  validated 
+
+5 new requirments - 30 test cases - smoke testing 
+
+250 + 30 = 280 test cases - automated test script 
+30 new test scripts - 
+
+java - 
+
+selenium - web based applicattion 
+selenium - java library - jar file - functions - web browser, chrome, IE, mozila
+anything happening inside a web browser - 
+
+brwoser - url, back , forward, delect cookies, maximize window
+web application - interaction with the web elements , text box - type, clear, read 
+button - click, read, enable, visible, , drop down - select, check the options, clear, 
+
+executing Test Case 
+
+Java Functions - set of code, set of instructions bind together to execute upon called 
+parameter - input 
+return - output 
+
+
+public boolean gettest(int x){
+
+
+//
+/////
+boolean flag - false; 
+
+return flag;
+
+
+}
+
+
+class - home 
+
+functions - clean(), opendoor(), static countdoor()
+
+
+runnable class 
+
+home.countdoor();
+
+home h = new home(); 
+h.clean(); 
+
+classes > 
+
+webdriver
+webelement - interact with the web element 
+select 
+
+
+Finding the web elements - HTML - hypertext markup language 
+
+- creating web elements in any page 
+
+id - 151 fundamental atribute 
+name - fundamental atribute
+xpath - compound attribute
+css selector - compound attribute
+
+last Name 
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" 
+data-type="text" name="lastname" value="" aria-required="true" placeholder="" aria-label="Last 
+name" id="u_0_o">
+
+
+
+//input[@aria-required='true']
+
+
+first name - google chrome
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
+name="firstname" value="" aria-required="true" placeholder="" aria-label="First name" id="u_0_m">
+
+
+internet explorer
+<input name="firstname" class="inputtext _58mg _5dba _2ph-" 
+id="u_0_m" aria-required="true" aria-label="First name" type="text" placeholder="" value="" data-type="text">
+
 
 id 
-name 
+name
+
+xpath for the last name
+//*[@id="u_0_o"]
+
+structure of a xpath 
+
+//tagname[@attribute='value']
+
+"//input[@id='u_0_o']"
+
+findelement(By.id("u_0_o")
+
+findelement(By.xpath("//input[@id='u_0_o']")
+
+findelement(By.name("lastname")
+xpath created from fundamental attribute - releative xpath 
+
+
+absolute xpath - 
+
+/html/body/div[1]/div[3]/div/div/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[2]/div/div[1]/input
+
+css selector 
+
+tag[attribute='value']
+//input[id='u_0_o'']
+
+
+// and / 
+
+// means relative xpath
+/ absolute xpath 
+id
+name
+xpath - relative xpath, absolute xpath 
+css selector
+
+//select[attribute=value]
+
+id
+name
 xpath 
 css selector 
 
+attributes 
+
+tagname - 
+classname - 
+
+list <webelemen> driver.findlements(by.tagname("input");
 
 
-if we want to find multiple web elements 
-driver.finelements
-tagname
-classname
+link - anchor tag - a 
 
-
-link 
-anchor tag> a tag 
 linktext
 partiallinktext 
 
+how to find web elements in different browser - 
+find in any browser and run in any browser 
+find google chrome browser - chrome, IE 
 
-code for the first name - HTML / CSS 
-
-<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="firstname" 
-value="" aria-required="true" placeholder="" aria-label="First name" id="u_0_n" aria-describedby="js_3hw">
-
-drop down menu 
-
-<select aria-label="Month" name="birthday_month" id="month" title="Month" class="_9407 _5dba _8esg"><option value="0">Month</option><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6" selected="1">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">
-Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select>
-
-link 
-
-<a href="/lite/" title="Facebook Lite for Android.">Facebook Lite</a>
+different browser - code change 
 
 
-id and name 
+10 times - 10 test scripts will fail 
+WebElement firstName = driver.findElement(By.id("usernamereg"));
 
-linktext / partiallinktext 
+15 web elements - 5 - 75 different lines of code 
+15 
 
+Object driven framework - obejct repository - page object model 
 
-//*[@id="u_0_p"]
-
-//*[@id="u_0_n"]
-
-
-
+def: seperating all web objects or web elements from the test scripts
 
 
+data driven framework - seperating the test data from test script 
+
+what is a test data - that we use for testing purpose 
+
+non test data - any data that is not used directly for testing 
+
+constructor - specific tecniques - going to get executed whenever we are going to create an object of the class 
 
 
+page object model - 
 
+is a non-runnable class that can contain all the functions of finding web elements in a web page 
 
+1 page object model for 1 web page 
 
-
-
-
-
+10 web page - 10 page model class 
+home page - one page object model 
+sign up - one page object model class 
 
 
 
 
+
+
+
+
+
+
+
+
+1. you can find web elements in any browser, it is same for all browsers , chrome, IE 
+2. prefer chrome 
+
+you have the driver file of the browser and pointing to the location/directy 
+
+any web elements 
+id, name, xpath, css selector 
+xpath - relative, absolute 
+
+find multiple web elements 
+tagname, classname 
+
+finding the links of a page 
+linktext, partial linktext 
+
+
+
+
+
+Frameworks: 
+
+1. object driven framework : seperating web elements from test script 
+test script - we can run, execute some steps 
+
+java runnable class - test script 
+
+java non-runnbale class - page object model 
+
+page object model - non runnable class with functions 
+
+for every page - we should have one page object model class 
+
+home page - 1 page object model - hompepage 
+sign up page - 1 page object model - signupPage
+
+1. seperate page object model classes from test scripts 
+
+
+Test Case 
+
+1. opening up google chrome browser
+2. navigate to home page of facebook (www.facebook.com)
+3. click on the messanger page link 
+4. check if reach the messanger page 
+5. validate if room option is visiable in the messanger page
+6. validate if features option are visiable in the messanger page 
+
+Test case 
+
+1. opening up chrome browser 
+2. navigating to the messanger page (https://www.messenger.com/)
+3. validate if rooms menu is enbled 
+4. validate if feature menu is enabled 
+
+ 
+
+
+wait: 
+
+implicit wait: after navigating to any url to make sure all the web elements of the page is loaded. 
+implicit wait checks for all the web elements those are displayed in the page
+
+we set time 10s is the maximum limit 
+
+3s - then it will go to the next step in 3 seconds
+
+
+Explicti wait - check if any specific webelement is available for using 
+
+only one web element 
 
 
 

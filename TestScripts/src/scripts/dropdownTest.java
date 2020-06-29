@@ -13,8 +13,7 @@ public class dropdownTest {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rznan\\Desktop\\programming libraries\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
-	
+
 		
 		
 		driver.manage().deleteAllCookies();
