@@ -1,0 +1,92 @@
+How we are running Tests? 
+
+//*[@id="headersignupform"]/div[3]/div[1]/div/label/span
+
+any kind of web brwoser interaction - selenium library 
+
+
+page object model - storing our web elements 
+
+public webelement getfirstname(){
+
+driver.findelement()
+
+}
+
+
+TestNG - Test Next generation - testing library/testing framework - Junit
+
+Testing error - bug/defect - something is not consistent with the requirement 
+
+req 1: firstname shoule not be more than 15 letters and must not accept and digits 
+
+
+
+
+expected result - requirement docs - user stories,brd, srd, frd, 
+actual result - testing 
+
+compare expected vs actual - pass/failing - failing - defect - log the defect 
+pass - no defect - nothing to log 
+
+
+Test Scripts - 
+
+coding error - we need to fix our code 
+
+
+test error - application has defect - comparing expected vs actual 
+
+1. to be able to seperate testing and configuration code 
+2. to be able to seperate if there is multiple test in one test script 
+3. to be able to compare expected vs actual 
+4. to be able to generate reports - 200 tests - 
+5. to be able to run all tests together - test suite 
+6. data driven testing 
+
+
+created Framework - object driven framework, data driven, hybrid framework 
+
+useed Framework - testng, junit, cucumber 
+
+
+TestNG Setup 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

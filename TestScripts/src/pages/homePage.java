@@ -25,9 +25,33 @@ public class homePage {
 		
 	}
 	
+public WebElement getmonth() {
+		
+		WebElement month = driver.findElement(By.xpath("//*[@id=\"month\"]")); 
+		return month; 
+		
+		
+		
+	}
+
+public WebElement getday() {
+	
+	WebElement day = driver.findElement(By.xpath("//*[@id=\"day\"]")); 
+	return day; 
 	
 	
 	
+}
+	
+	
+public WebElement getyear() {
+	
+	WebElement year = driver.findElement(By.xpath("//*[@id=\"year\"]")); 
+	return year; 
+	
+	
+	
+}
 	
 	
 	
