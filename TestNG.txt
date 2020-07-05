@@ -52,6 +52,45 @@ useed Framework - testng, junit, cucumber
 
 TestNG Setup 
 
+1. TestNG library
+2. eclipse plugin for TestNG 
+
+https://dl.bintray.com/testng-team/testng-eclipse-release/
+
+TestNG: replacing main method of java 
+
+pre-defined - pre-sequenced annotations  
+
+BeforeMethod
+AfterMethod
+
+
+BeforeTest
+Test
+AfterTest
+
+
+every annotations comes with a function - functions are created by us 
+
+to get executed - the function get exectues 
+
+
+
+
+
+
+beforetest
+beforemthod
+test1
+aftermethod
+beforemthod
+test2
+aftermethod
+aftertest 
+
+
+Test execution squence  - gets executed in alphanbetical order of the function name 
+functiona name is refers as the test name in test ng
 
 
 
@@ -60,6 +99,29 @@ TestNG Setup
 
 
 
+
+
+
+class car(){
+
+int carmilease = 78; 
+
+
+}
+
+
+
+
+car c = new car(); 
+c.milease=120; 
+
+car d = new car(); 
+
+d.milease= 200; 
+
+car e = new car(); 
+
+e.milease = 150; 
 
 
 
