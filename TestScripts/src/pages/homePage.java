@@ -15,6 +15,10 @@ public class homePage {
 	}
 	
 	
+	public void testfunction(int x) {
+		
+		
+	}
 	
 	public WebElement getMessangerLink() {
 		

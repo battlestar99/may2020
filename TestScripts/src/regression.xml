@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Regression Testing">
+
+<test name="Release 3.5">
+
+<classes>
+
+<class name="ngScripts.basicNg"></class>
+<class name="ngScripts.basicNGOne"></class>
+<class name="ngScripts.messengerTest"></class>
+<class name="ngScripts.yahooSignupV1"></class>
+<class name="ngScripts.yahooSignUpv2"></class>
+<class name="scripts.basicNg"></class>
+
+
+
+</classes>
+
+</test>
+</suite>

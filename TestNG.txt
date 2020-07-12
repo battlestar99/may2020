@@ -124,6 +124,213 @@ car e = new car();
 e.milease = 150; 
 
 
+TestNG - Test Next Generation 
+
+
+framework - Template 
+
+run out tests - TestNG 
+
+1. annotations - sequence of code execution, seperate configruation code to test code, sepertate multiple tests 
+
+
+
+
+
+
+@BeforeTest - configuration , pre-requirments of tests 
+
+
+
+@BeforeMethod - code we need to execute before each test - steps we need to execute before each test - reset a veraible value
+delete the cookies, refresh the page, navigate to the home page to start with new test  
+@Test - validatetitle(priority = 1)- the code for testing 
+@AfterMethod - code we need to execute after each test - steps we need to execute after each test 
+
+
+@BeforeMethod
+@Test - validateurl (priority = 2) - the code for testing
+@AfterMethod 
+ 
+
+@BeforeMethod
+@Test - validatebrowser (priority = 3) - the code for testing
+@AfterMethod 
+
+@AfterTest - close the browser, any other post requirement
+
+
+
+
+
+every functions - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+expected with actual 
+
+expected value - reqs docs, user story 
+actual value - aftter testing 
+
+assertion - for passing and failing scenrio 
+
+expected vs actual 
+
+2 strings
+2 numbers
+2 boolean values
+assertTrue(true)
+
+
+
+Test case - 6 steps - 
+1. Test Scripts Vs Test/test case 
+
+Test scripts - multiple tests/one test  
+
+one test - one test case - one assertion 
+
+100 test scripts - minimum 100 tests - 250 tests
+
+2. convert manual test cases to automation test scripts 
+
+500 manual test cases availale - 
+
+
+validate requirments - 
+
+sign up module - automation test script for the signup module 
+
+- what you need to test again and again 
+
+100 times - 99 times - o time
+
+1. critical funtionality - sign up, sign in
+2. regression - pay money through chatbox facebook, 
+
+you have to look for requirements - user stories 
+
+100 tests - 5 of them failed 
+
+2-3 run 
+
+manually test them
+
+log it as a defect - assign  team lead - 
+
+close the defect - 
+
+
+expected vs actual 
+
+testng , junit, cucumber
+
+
+
+
+build means new code is deployed to the server 
+
+
+12th july 
+500 tests - passed 
+
+
+15th july 
+500 tests - 4 tests failed 
+
+assertion - 
+
+assertequals()
+
+
+1. priority for tests 
+2. we can make a test enabled or disabled 
+3. we can make a test dependenn on another test
+
+
+
+
+
+Test Suites - collection of test cases 
+
+100 test cases together 
+
+smoke testing
+regression testing
+sanity 
+uat 
+data driven testing
+
+
+XML file - we can create test suite 
+
+
+TestNG data driven framework - 
+
+TestNG xml - extensible markup lagnuage - data transportation 
+
+xml - start tags and end tags 
+
+<class name="ngScripts.basicNg"></class>
+<class name="ngScripts.basicNGOne "></class>
+
+
+
+
+
+100 test scripts 
+
+Test suite - xml 
+
+Parameterized testing - data driven testing
+
+object driven - page object model classes - seperate the test scripts from web elements 
+data driven - parameterized testing using XML file - seperate the test data from the test scripts , test with multiple sets of data
+
+
+
+
+
+java - selenium - testng 
+
+java - selenium - cucumber 
+
+
+
+
+git - maven - jenkins 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

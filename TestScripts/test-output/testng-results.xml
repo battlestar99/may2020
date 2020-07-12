@@ -1,25 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36" started-at="2020-07-05T16:32:44Z" finished-at="2020-07-05T16:32:44Z">
+  <suite name="Data driven Testing for Yahoo signup" duration-ms="19154" started-at="2020-07-12T17:25:54Z" finished-at="2020-07-12T17:26:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36" started-at="2020-07-05T16:32:44Z" finished-at="2020-07-05T16:32:44Z">
-      <class name="ngScripts.basicNg">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.basicNg@15bb6bea]" name="beforetest" is-config="true" duration-ms="9" started-at="2020-07-05T12:32:44Z" finished-at="2020-07-05T12:32:44Z">
+    <test name="Mixed data set" duration-ms="18207" started-at="2020-07-12T17:25:54Z" finished-at="2020-07-12T17:26:13Z">
+      <class name="ngScripts.yahooSignupDataDriven">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.yahooSignupDataDriven@4f933fd1]" name="beforetest" is-config="true" duration-ms="7280" started-at="2020-07-12T13:25:54Z" finished-at="2020-07-12T13:26:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="atest()[pri:0, instance:ngScripts.basicNg@15bb6bea]" name="atest" duration-ms="11" started-at="2020-07-05T12:32:44Z" finished-at="2020-07-05T12:32:44Z">
+        <test-method status="PASS" signature="validateSignupData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ngScripts.yahooSignupDataDriven@4f933fd1]" name="validateSignupData" duration-ms="7553" started-at="2020-07-12T13:26:02Z" finished-at="2020-07-12T13:26:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Razin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[web.razin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dfadfsa++]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- atest -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:ngScripts.basicNg@15bb6bea]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-07-05T12:32:44Z" finished-at="2020-07-05T12:32:44Z">
+        </test-method> <!-- validateSignupData -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:ngScripts.yahooSignupDataDriven@4f933fd1]" name="quitBrowser" is-config="true" duration-ms="3342" started-at="2020-07-12T13:26:09Z" finished-at="2020-07-12T13:26:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- ngScripts.basicNg -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ngScripts.yahooSignupDataDriven -->
+    </test> <!-- Mixed data set -->
+    <test name="Negative data set" duration-ms="18816" started-at="2020-07-12T17:25:54Z" finished-at="2020-07-12T17:26:13Z">
+      <class name="ngScripts.yahooSignupDataDriven">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.yahooSignupDataDriven@62ee68d8]" name="beforetest" is-config="true" duration-ms="9737" started-at="2020-07-12T13:25:54Z" finished-at="2020-07-12T13:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="FAIL" signature="validateSignupData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ngScripts.yahooSignupDataDriven@62ee68d8]" name="validateSignupData" duration-ms="5530" started-at="2020-07-12T13:26:04Z" finished-at="2020-07-12T13:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marley]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bobm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bob++]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yahoo12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [yahoo12] but found [Yahoo]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [yahoo12] but found [Yahoo]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at ngScripts.yahooSignupDataDriven.validateSignupData(yahooSignupDataDriven.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupData -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:ngScripts.yahooSignupDataDriven@62ee68d8]" name="quitBrowser" is-config="true" duration-ms="3538" started-at="2020-07-12T13:26:10Z" finished-at="2020-07-12T13:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ngScripts.yahooSignupDataDriven -->
+    </test> <!-- Negative data set -->
+    <test name="Mixed data set 1" duration-ms="18855" started-at="2020-07-12T17:25:54Z" finished-at="2020-07-12T17:26:13Z">
+      <class name="ngScripts.yahooSignupDataDriven">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.yahooSignupDataDriven@68be2bc2]" name="beforetest" is-config="true" duration-ms="8299" started-at="2020-07-12T13:25:54Z" finished-at="2020-07-12T13:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="validateSignupData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ngScripts.yahooSignupDataDriven@68be2bc2]" name="validateSignupData" duration-ms="6902" started-at="2020-07-12T13:26:03Z" finished-at="2020-07-12T13:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[leonerdo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[da vinci]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leo.vinci]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dfdsfaa++]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupData -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:ngScripts.yahooSignupDataDriven@68be2bc2]" name="quitBrowser" is-config="true" duration-ms="3644" started-at="2020-07-12T13:26:10Z" finished-at="2020-07-12T13:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ngScripts.yahooSignupDataDriven -->
+    </test> <!-- Mixed data set 1 -->
+    <test name="Positive data set" duration-ms="19154" started-at="2020-07-12T17:25:54Z" finished-at="2020-07-12T17:26:14Z">
+      <class name="ngScripts.yahooSignupDataDriven">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.yahooSignupDataDriven@573f2bb1]" name="beforetest" is-config="true" duration-ms="8415" started-at="2020-07-12T13:25:54Z" finished-at="2020-07-12T13:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="validateSignupData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ngScripts.yahooSignupDataDriven@573f2bb1]" name="validateSignupData" duration-ms="6757" started-at="2020-07-12T13:26:03Z" finished-at="2020-07-12T13:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Scott]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mscot]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Scott++]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupData -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:ngScripts.yahooSignupDataDriven@573f2bb1]" name="quitBrowser" is-config="true" duration-ms="3973" started-at="2020-07-12T13:26:10Z" finished-at="2020-07-12T13:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ngScripts.yahooSignupDataDriven -->
+    </test> <!-- Positive data set -->
+  </suite> <!-- Data driven Testing for Yahoo signup -->
 </testng-results>

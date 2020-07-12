@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Data driven Testing for Yahoo signup" parallel="tests">
+
+<test name="Positive data set">
+<parameter name="firstName" value="Michael"/>
+<parameter name="lastName" value="Scott"/>
+<parameter name="email" value="mscot"/>
+<parameter name="password" value="Scott++"/>
+<parameter name="expectedTtitle" value="Yahoo"/>
+<parameter name="month" value="April"/>
+
+<classes>
+
+<class name="ngScripts.yahooSignupDataDriven"/>
+</classes>
+</test>
+
+
+<test name="Negative data set">
+<parameter name="firstName" value="Bob"/>
+<parameter name="lastName" value="Marley"/>
+<parameter name="email" value="bobm"/>
+<parameter name="password" value="bob++"/>
+<parameter name="expectedTtitle" value="yahoo12"/>
+<parameter name="month" value="May"/>
+
+<classes>
+
+<class name="ngScripts.yahooSignupDataDriven"/>
+</classes>
+</test>
+
+
+<test name="Mixed data set">
+<parameter name="firstName" value="Razin"/>
+<parameter name="lastName" value="Anik"/>
+<parameter name="email" value="web.razin"/>
+<parameter name="password" value="dfadfsa++"/>
+<parameter name="expectedTtitle" value="Yahoo"/>
+<parameter name="month" value="June"/>
+
+<classes>
+
+<class name="ngScripts.yahooSignupDataDriven"/>
+</classes>
+</test>
+
+<test name="Mixed data set 1">
+<parameter name="firstName" value="leonerdo"/>
+<parameter name="lastName" value="da vinci"/>
+<parameter name="email" value="leo.vinci"/>
+<parameter name="password" value="dfdsfaa++"/>
+<parameter name="expectedTtitle" value="Yahoo"/>
+<parameter name="month" value="April"/>
+
+<classes>
+
+<class name="ngScripts.yahooSignupDataDriven"/>
+</classes>
+</test>
+
+
+
+
+
+
+
+
+
+
+
+</suite>

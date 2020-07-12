@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Testing]">
+  <test name="sprint 2.2(failed)">
+    <classes>
+      <class name="ngScripts.yahooSignupV1">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- ngScripts.yahooSignupV1 -->
+      <class name="ngScripts.messengerTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- ngScripts.messengerTest -->
+    </classes>
+  </test> <!-- sprint 2.2(failed) -->
+</suite> <!-- Failed suite [Smoke Testing] -->
