@@ -1,0 +1,87 @@
+ Java and Java OOP 
+
+java basic - datatype, variable, main method, conditional looping  
+
+Java object oriented programming 
+
+  runnable class - procedural programming - line by line - main method 
+
+  non runnable class - any main method - functions - page object model - storage of functions 
+  programming library - packages - non runnable classes - functions and properties 
+   documentation - functions - what the functions are doing - input or outputs 
+
+
+  non runnable class - prototype or design - design of a building 
+
+  design - you implement the object 
+
+  they have attirbutes - properties 
+  they can do something - 
+
+Person - 
+
+John , Michael
+Attributes - properties 
+dl = 3443 , 21321
+ssn = erew, fadsf
+firstname = john, michael
+last naem = bolton, john
+
+can do - 
+swim
+run
+write code
+drive 
+
+
+  bank account - 
+attributes 
+
+account number
+account holder name
+email - 
+
+
+
+can do - 
+
+  deposit
+  withdraw
+  submit information 
+
+
+designing a java non runnable class - 
+attributes - properties - what it can have 
+functions - method - what it can do 
+
+local and global variable 
+this keyword - refers to global variable 
+static - functions or properties part of the class and not part of the object 
+constructor = constructor is used to setup initial value for an object 
+constuctor overloading - multiple constructor in one class 
+function overloading - same function with different inputs 
+
+access modifier - public, private, protected, no modifier 
+private - can not use it inside the package or outside package, inside the class
+protected - can not be used outside of the package but can be used inside the pacakge
+public - can use from inside or outside of the package 
+
+
+arrary
+exception 
+inheritance
+abstract class
+interface 
+features of the oop - polymorphism, abstraction, inherihance 
+
+
+
+
+
+
+
+
+
+
+
+

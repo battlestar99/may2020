@@ -8,9 +8,9 @@ public class homePage {
 	
 	WebDriver driver; 
 	
-	public homePage(WebDriver x) {
+	public homePage(WebDriver driver) {
 		
-		driver=x;
+		this.driver=driver;
 		
 	}
 	

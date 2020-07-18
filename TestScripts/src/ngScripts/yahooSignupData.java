@@ -26,7 +26,7 @@ public class yahooSignupData {
 		
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\rznan\\Desktop\\programming libraries\\chromedriver.exe");
         
-       driver = new ChromeDriver();
+       WebDriver driver = new ChromeDriver();
         yp = new yahooPage(driver);
 	
 		
