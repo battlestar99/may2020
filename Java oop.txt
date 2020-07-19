@@ -72,7 +72,175 @@ exception
 inheritance
 abstract class
 interface 
-features of the oop - polymorphism, abstraction, inherihance 
+features of the oop - polymorphism, abstraction, inherihance
+
+functions - non runnable classes 
+runnable class - main method of java - code starts from main method 
+
+TestNG - testing 
+
+web bases application - selenium 
+
+can do anything within a web browser - chorme, IE, mozila firefox 
+
+driver.get("url")
+
+classname objetname = new classname()
+
+webdriver driver=new chromedriver()
+
+WebElement x = driver.findlement(by.xpath()); 
+
+x.sendkeys()
+class 
+
+properties - global variable
+functions - functions that can be executed 
+
+constrcutro
+global local
+static
+
+inheritance
+abstract class
+inteface 
+
+refers to the relationship between class 
+
+parent class - super class - will not get anything from child class or sub class
+
+child class - sub class - properties and functions 
+
+car 
+
+sedan 
+
+honda accord 
+
+ha - honda accord, sedan, car
+
+method overloading , constructor - can be in differnet forms depdning on their inputs 
+
+4 features of Object oriented programming 
+
+inheritance - capability of inheritating functions or properties from another class 
+polymorphism - one object having differnet forms, also method and constructor overloading
+abstraction - abstract class, private functions or properties 
+encapsulation - having properties and functions ( data and action together) 
+
+inheritance is important? 
+
+bankaccount - depositm , withdraw 
+
+chekcing account - get it from bankaccont
+
+saving account - get it from bankaccount 
+
+page object model - base class - common webelements or objects functions are in the base class
+
+page object model class - inherits the base class 
+
+webdriver driver; 
+
+driver = new chromedriver(); 
+
+extnes
+
+method overriding - when child class function is overriding the parent class function 
+
+super - is used to refer to parents class functions or constructor if child class wants to use
+
+abstraction - one is creating abstract class 
+
+abstract class - the class that we can not create an object, we can only use the functions or
+properties 
+through its child classes  
+
+interface : making an outline of the some sets of classes 
+
+defining what are the functions or properties sets of classes should have
+
+webdriver driver = new chormedriver()
+
+classname objectname = new classname()
+
+interface - an outline for sets of classes, it can only have abstract function
+
+the classes that are going to implement the interface, they need to implement all the functions
+defined in the interface 
+
+chromedriver, iedriver,firefoxdriver implementing the webdriver interface 
+
+interfacename objectname = new classname(); 
+
+abstract class vs interface 
+basic programming - datatype, varibale, conditional, looping, function
+OOP - class, objects, inheritance, interface, 
+Data structure - array, list, hashmap, 
+Algorithms - search, sorting 
+
+array is a way of storing data 
+store one data in one variable 
+String x = "fdfasd"; 
+x=12; 
+
+exception vs error 
+
+debugs 
+
+int x [] = new int [5];
+lenght of the array is 5 
+the indexes of the arrary 0 1 2 3 4 
+
+x[0]=12;
+x[3]=39;
+x[5]=56;
+
+int y [] = new int [15]; 
+
+0 - 14
+
+integer memory if doesnt have value - 0 
+string memory doesnt have value - null 
+ 
+
+exception vs error 
+
+complie time exception - error in the code 
+
+run time exception 
+
+no such element exception - wrong locating tecnique, your code is taking
+null pointer exception - providing wrong location for something
+stale element excpetion - happens when the web elements is not avialble in the memory
+
+only one exception we can accept and try to run the code again without chaning anything 
+
+there is a bug in the application that we are testing - 
+
+assertion excpetion - application defects or bugs 
+tries compare actual and expected and it doesn't match 
+
+code and application 
+
+code is what we are writing to test the application, to find if there is problem in the 
+application or bug/defects 
+
+100 automation test scripts - 5 of your scripts failed 
+
+sytem.out.println(
+
+how to handle exception? 
+
+just to make sure the code is running 
+
+
+
+
+
+
+
+ 
 
 
 

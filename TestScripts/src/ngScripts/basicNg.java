@@ -27,7 +27,7 @@ public class basicNg {
 	public void validateBrowser() {
 		
 		System.out.println("This is Atest");
-		Assert.assertEquals("Test", "Test");
+		Assert.assertEquals("Test", "Test12");
 	}
 	
 	
@@ -49,7 +49,7 @@ public class basicNg {
 		
 		
 		System.out.println("This is validatesignup");
-		Assert.assertEquals(15, 12, "Testing validatesignip");
+		Assert.assertEquals(15, 15, "Testing validatesignip");
 	}
 	
 	@Test(priority=2)

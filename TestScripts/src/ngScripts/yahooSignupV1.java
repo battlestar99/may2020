@@ -70,6 +70,7 @@ public class yahooSignupV1 {
 		
 		
 		WebElement firstName = driver.findElement(By.id("usernamereg-day"));
+		
 		firstName.sendKeys("Michael");
 		Thread.sleep(2000);
 		WebElement gender = driver.findElement(By.id("usernamereg-freeformGender"));

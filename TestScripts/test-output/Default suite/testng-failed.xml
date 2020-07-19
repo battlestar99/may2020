@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="ngScripts.messengerTest">
+      <class name="ngScripts.basicNg">
         <methods>
-          <include name="validateTtitle"/>
-          <include name="afterTest"/>
+          <include name="validateBrowser"/>
+          <include name="aftertest"/>
           <include name="beforetest"/>
         </methods>
-      </class> <!-- ngScripts.messengerTest -->
+      </class> <!-- ngScripts.basicNg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

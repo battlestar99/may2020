@@ -26,8 +26,12 @@ public class yahooSignupData {
 		
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\rznan\\Desktop\\programming libraries\\chromedriver.exe");
         
-       WebDriver driver = new ChromeDriver();
+       driver = new ChromeDriver();
         yp = new yahooPage(driver);
+        
+     
+        
+        
 	
 		
 		
@@ -46,6 +50,9 @@ public class yahooSignupData {
 		yp.getlastName().sendKeys("Scott");
 		yp.getEmailaddress().sendKeys("mscott");
 		yp.getPassword().sendKeys("djfdjfla+");
+		
+		
+		
 		
 		Select phoneDd= new Select(yp.getPhoneDD());
 		phoneDd.selectByVisibleText("Anguilla ‪(+1)‬");

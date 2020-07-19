@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Data driven Testing for Yahoo signup]" parallel="tests">
-  <parameter name="firstName" value="leonerdo"/>
-  <parameter name="lastName" value="da vinci"/>
-  <parameter name="password" value="dfdsfaa++"/>
-  <parameter name="expectedTtitle" value="Yahoo"/>
-  <parameter name="month" value="April"/>
-  <parameter name="email" value="leo.vinci"/>
-  <test name="Negative data set(failed)" parallel="tests">
-    <parameter name="firstName" value="Bob"/>
-    <parameter name="lastName" value="Marley"/>
-    <parameter name="password" value="bob++"/>
-    <parameter name="expectedTtitle" value="yahoo12"/>
-    <parameter name="month" value="May"/>
-    <parameter name="email" value="bobm"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="ngScripts.yahooSignupDataDriven">
+      <class name="ngScripts.basicNg">
         <methods>
+          <include name="validateBrowser"/>
+          <include name="aftertest"/>
           <include name="beforetest"/>
-          <include name="beforetest"/>
-          <include name="beforetest"/>
-          <include name="beforetest"/>
-          <include name="validateSignupData" invocation-numbers="0"/>
-          <include name="quitBrowser"/>
-          <include name="quitBrowser"/>
-          <include name="quitBrowser"/>
-          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- ngScripts.yahooSignupDataDriven -->
+      </class> <!-- ngScripts.basicNg -->
     </classes>
-  </test> <!-- Negative data set(failed) -->
-</suite> <!-- Failed suite [Data driven Testing for Yahoo signup] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
