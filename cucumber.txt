@@ -1,0 +1,130 @@
+Java Interface - interface vs abstract class 
+
+abstract class - normal class, you can not create an object 
+sub class - child class 
+inheritance 
+
+sub class - super class 
+
+abstract bankaccount - deposit, withdraw, checkamount 
+sub class - checkingaccount, savingaccount, investmentaccount 
+
+java interface  - set of outlines for other classes 
+
+Cucumber - 
+
+TestNG - 
+web based application testing - java, selenium 
+
+why need TestNG? 
+
+java - programming language - computer understands - jdk
+selenium - java - interact with the browser and web elements 
+TestNG/cucumber - testing library/testing framework - coding template 
+specifically used for testing
+
+organize the code in testing basis - reqs, steps, post req, iteration
+pass/fail scenrio - expected and actual result - assert(expected, actual)
+report - 
+data driven testing
+parallel testing 
+priority, depends on method, grouping 
+
+
+TestNG > Cucumber 
+
+TestNG/Junit > traditional type testing framework > unit testing > non-technical person
+
+product devleopment - 
+project management
+team lead 
+business analyst 
+testers - manual testing, automation testing 
+developers - code 
+
+reason 1 : non technical person can understand automation testing 
+cucumber - bdd - beahvour driven testing/development 
+we test the behaviour of the application 
+
+gherkin language 
+
+java library - 
+setup - 
+jar files - 10 different jar files 
+eclipse plugin - 
+
+TestNG / Cucumber Plugin - attached with eclipse 
+
+libraries - jar files - attached with the project 
+
+
+Cucumber - 
+
+feature file - gherkin language - plain english language to write app behaviour 
+understaable to everyone technical / non technical 
+plain english language using gherkin keywords 
+
+gherkin keywords/language  - 
+feature - test scripts 
+scenerio- test case 
+background 
+
+given
+when
+and
+then
+but 
+
+step definition - will execute the tests 
+
+Test Runners - 
+
+@Test
+public void validatesignup(){
+
+// code getting executed 
+
+}
+1. we can not implement the same step mutiple time
+we can use it multiple time 
+
+2. 
+
+
+http://cucumber.github.io/cucumber-eclipse/update-site/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

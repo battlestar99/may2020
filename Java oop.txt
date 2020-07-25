@@ -234,6 +234,14 @@ how to handle exception?
 
 just to make sure the code is running 
 
+handling exception 
+
+try catch finally 
+
+try - finds the excpetion 
+catch - find the name of the exception
+finally - we can execute some code after exception 
+
 
 
 
