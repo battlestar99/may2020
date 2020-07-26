@@ -108,6 +108,114 @@ http://cucumber.github.io/cucumber-eclipse/update-site/
 
 
 
+Manual Testing - sdlc, agile-scrum, type of testing, test case, plans, jira, log defect 
+
+Automation testing - selenium 
+
+sql + web service testing + performance testing  
+
+user interface  - web service - database 
+front - end      - backend (sql) 
+
+Cucumber - BDD - behaviour driven development
+
+collection of jar files - 10 jar files - install cucumber plugin 
+
+Feature - gherkin language 
+given when then and but feature scenario example secenario outline background 
+
+feature - test script 
+scenario - test / test case 
+given when and then but 
+
+step - def - glue code 
+
+test runner - java file 
+test suite 
+generate report 
+set of tests not all the tests 
+
+feature file - 3 scenarios 
+
+data driven testing in cucumber - 
+
+data table 
+keep the data in feature file 
+""
+
+seperating test data from test scripts 
+seperating web elements/ web object from test scripts object driven framework 
+page object model 
+
+test runner - test suite- reports 
+
+15 features 
+
+feature - 1 
+
+5 steps 
+
+stepdef1
+stepdef2
+stepdef3
+
+
+
+30 tests sign up 
+
+feature folder
+step def file 
+
+40 tests for login function
+
+feature folder
+step def 
+
+
+Hook/ hooks - @Before
+@After
+
+
+feature 
+
+step def 
+
+Testrunner - Junit , TestNG 
+test suite 
+report 
+
+cucumber/TestNG 
+java - oop  
+selenium 
+
+page object model
+data driven framework - xml, data table, excel file apache poi, database jdbc 
+
+
+50 percent question about basic software testing
+
+
+maven , git , jenkins 
+
+Next week - no class - saturday and sunday office will be closed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

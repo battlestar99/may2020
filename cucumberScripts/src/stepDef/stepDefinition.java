@@ -1,5 +1,7 @@
 package stepDef;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -7,10 +9,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
+import pages.facebookHome;
 import pages.yahooPage;
 
 
@@ -18,15 +23,32 @@ public class stepDefinition {
 	
 	WebDriver driver; 
 	yahooPage yp; 
+	facebookHome fbh; 
+	
+	
+	@Before
+	public void setup() {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rznan\\Desktop\\Java Development\\programming libraries\\chromedriver.exe");
+        
+	       driver = new ChromeDriver();
+		
+	}
+	
+	@After
+	
+	public void finishTest() {
+		
+		driver.quit();
+		
+	}
 	
 	
 	@Given("^user is on the yahoo sign up page$")
 	public void user_is_on_the_yahoo_sign_up_page() throws Throwable {
 	   
 		
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\rznan\\Desktop\\Java Development\\programming libraries\\chromedriver.exe");
-	        
-	       driver = new ChromeDriver();
+		 
 	       yp = new yahooPage(driver);
 	        
 			driver.manage().deleteAllCookies();
@@ -82,7 +104,7 @@ public class stepDefinition {
 	
 	@Then("^user should be able to close the browser$")
 	public void user_should_be_able_to_close_the_browser() throws Throwable {
-	    driver.quit();
+	  
 	}
 
 	@When("^user should have the lastname box visible and enabled$")
@@ -101,12 +123,12 @@ public class stepDefinition {
 
 	@When("^user should have the drop down menu for phone number$")
 	public void user_should_have_the_drop_down_menu_for_phone_number() throws Throwable {
-	  
+		Assert.assertEquals("test", "testfsfsd");
 	}
 
 	@Then("^user should have all the web elements require for sign up$")
 	public void user_should_have_all_the_web_elements_require_for_sign_up() throws Throwable {
-	   
+		 assertEquals("fds", "dfd");
 	}
 	
 	@When("^user creates a password$")
@@ -174,6 +196,72 @@ public class stepDefinition {
 	public void user_should_see_the_new_dashboard() throws Throwable {
 		 System.out.println("user should see the new dashboard");
 	}
+	
+	@When("^user clicks on the link to navigate$")
+	public void user_clicks_on_the_link_to_navigate() throws Throwable {
+	    
+		System.out.println("user is navigating");
+	}
+	
+	@When("^user clicks on a new link$")
+	public void user_clicks_on_a_new_link() throws Throwable {
+	   
+		 
+	}
+	
+	@Given("^user is on the facebook sign up page$")
+	public void user_is_on_the_facebook_sign_up_page() throws Throwable {
+		
+	       
+	       fbh = new facebookHome(driver);
+			driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
+			driver.get("https://www.facebook.com/");	
+			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	    
+	}
+
+	@When("^user can enter the firstName \"([^\"]*)\"$")
+	public void user_can_enter_the_firstName(String firstname) throws Throwable {
+	   
+		Thread.sleep(1000);
+		fbh.getfirstName().sendKeys(firstname);
+		
+	}
+
+	@When("^user can enter the last name \"([^\"]*)\"$")
+	public void user_can_enter_the_last_name(String lastName) throws Throwable {
+		Thread.sleep(1000);
+		fbh.getlastName().sendKeys(lastName);
+	}
+
+	@Then("^user can enter the email \"([^\"]*)\"$")
+	public void user_can_enter_the_email(String arg1) throws Throwable {
+		Thread.sleep(1000);
+		fbh.getemail().sendKeys(arg1);
+	}
+	
+	
+	@When("^user can enter the firstname \"([^\"]*)\" in facebook$")
+	public void user_can_enter_the_firstname_in_facebook(String arg1) throws Throwable {
+		Thread.sleep(1000);
+		fbh.getfirstName().sendKeys(arg1);
+	}
+
+	@When("^user can enter the lastname \"([^\"]*)\" in facebook$")
+	public void user_can_enter_the_lastname_in_facebook(String arg1) throws Throwable {
+		Thread.sleep(1000);
+		fbh.getlastName().sendKeys(arg1);
+	}
+
+	@When("^user can enter the email \"([^\"]*)\" in facebook$")
+	public void user_can_enter_the_email_in_facebook(String arg1) throws Throwable {
+		Thread.sleep(1000);
+		fbh.getemail().sendKeys(arg1);
+	}
+
+
+
 	
 	
 
