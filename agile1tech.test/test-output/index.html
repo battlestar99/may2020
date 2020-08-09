@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression_Testing">
+              <span class="suite-name border-failed">Regression Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_Testing">
+                    <span>C:\Users\rznan\Desktop\Java Development\eclipse_ws_may2020\agile1tech.test\src\test\java\regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_Testing">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression_Testing">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression_Testing">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_Testing">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_Testing">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_Testing">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 3 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_Testing" class="hide-methods failed suite-Regression_Testing"> (hide)</a> <!-- hide-methods failed suite-Regression_Testing -->
+                      <a href="#" panel-name="suite-Regression_Testing" class="show-methods failed suite-Regression_Testing"> (show)</a> <!-- show-methods failed suite-Regression_Testing -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_Testing">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.basicNg" hash-for-method="validateBrowser">validateBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="scripts.basicNg" hash-for-method="validateSignUP">validateSignUP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.yahooSignupV1" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_Testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Testing" class="hide-methods passed suite-Regression_Testing"> (hide)</a> <!-- hide-methods passed suite-Regression_Testing -->
+                      <a href="#" panel-name="suite-Regression_Testing" class="show-methods passed suite-Regression_Testing"> (show)</a> <!-- show-methods passed suite-Regression_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Testing">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="scripts.basicNg" hash-for-method="validateBrowser">validateBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.messengerTest" hash-for-method="validateRoomsmenuAvailable">validateRoomsmenuAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.basicNg" hash-for-method="validateSignUP">validateSignUP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.yahooSignUpv2" hash-for-method="validateSignup">validateSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.yahooSignupV1" hash-for-method="validateSignup">validateSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.yahooSignupV1" hash-for-method="validateSignupUrl">validateSignupUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.basicNGOne" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.messengerTest" hash-for-method="validateTtitle">validateTtitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.basicNGOne" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.messengerTest" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="scripts.basicNg" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.basicNg" hash-for-method="validateUrl">validateUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.basicNg" hash-for-method="validatedisplay">validatedisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="scripts.basicNg" hash-for-method="validatedisplay">validatedisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.messengerTest" hash-for-method="validatefeaturemenuAvailable">validatefeaturemenuAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.messengerTest" hash-for-method="validatemessangerLink">validatemessangerLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="ngScripts.messengerTest" hash-for-method="validateprivacymenuAvailable">validateprivacymenuAvailable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Testing" class="panel Regression_Testing">
+          <div class="suite-Regression_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ngScripts.basicNg</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBrowser">
+                  </a> <!-- validateBrowser -->
+                  <span class="method-name">validateBrowser</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Test12] but found [Test]
+	at ngScripts.basicNg.validateBrowser(basicNg.java:30)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-failed -->
+          <div class="suite-Regression_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scripts.basicNg</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignUP">
+                  </a> <!-- validateSignUP -->
+                  <span class="method-name">validateSignUP</span>
+                  <div class="stack-trace">java.lang.AssertionError: Testing validatesignip expected [12] but found [15]
+	at scripts.basicNg.validateSignUP(basicNg.java:52)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-failed -->
+          <div class="suite-Regression_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ngScripts.yahooSignupV1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Yahoo signup] but found [Yahoo]
+	at ngScripts.yahooSignupV1.validateTitle(yahooSignupV1.java:59)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-failed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ngScripts.yahooSignUpv2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignup">
+                  </a> <!-- validateSignup -->
+                  <span class="method-name">validateSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ngScripts.basicNg</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignUP">
+                  </a> <!-- validateSignUP -->
+                  <span class="method-name">validateSignUP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatedisplay">
+                  </a> <!-- validatedisplay -->
+                  <span class="method-name">validatedisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.basicNg</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBrowser">
+                  </a> <!-- validateBrowser -->
+                  <span class="method-name">validateBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatedisplay">
+                  </a> <!-- validatedisplay -->
+                  <span class="method-name">validatedisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ngScripts.yahooSignupV1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignup">
+                  </a> <!-- validateSignup -->
+                  <span class="method-name">validateSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignupUrl">
+                  </a> <!-- validateSignupUrl -->
+                  <span class="method-name">validateSignupUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ngScripts.messengerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRoomsmenuAvailable">
+                  </a> <!-- validateRoomsmenuAvailable -->
+                  <span class="method-name">validateRoomsmenuAvailable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTtitle">
+                  </a> <!-- validateTtitle -->
+                  <span class="method-name">validateTtitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatefeaturemenuAvailable">
+                  </a> <!-- validatefeaturemenuAvailable -->
+                  <span class="method-name">validatefeaturemenuAvailable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatemessangerLink">
+                  </a> <!-- validatemessangerLink -->
+                  <span class="method-name">validatemessangerLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateprivacymenuAvailable">
+                  </a> <!-- validateprivacymenuAvailable -->
+                  <span class="method-name">validateprivacymenuAvailable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ngScripts.basicNGOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitle">
+                  </a> <!-- validateTitle -->
+                  <span class="method-name">validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUrl">
+                  </a> <!-- validateUrl -->
+                  <span class="method-name">validateUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
+        </div> <!-- panel Regression_Testing -->
+        <div panel-name="test-xml-Regression_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rznan\Desktop\Java Development\eclipse_ws_may2020\agile1tech.test\src\test\java\regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression Testing&quot;&gt;
+  &lt;test name=&quot;Release 3.5&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ngScripts.basicNg&quot;/&gt;
+      &lt;class name=&quot;ngScripts.basicNGOne&quot;/&gt;
+      &lt;class name=&quot;ngScripts.messengerTest&quot;/&gt;
+      &lt;class name=&quot;ngScripts.yahooSignupV1&quot;/&gt;
+      &lt;class name=&quot;ngScripts.yahooSignUpv2&quot;/&gt;
+      &lt;class name=&quot;scripts.basicNg&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Release 3.5 --&gt;
+&lt;/suite&gt; &lt;!-- Regression Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Release 3.5 (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Testing');
+function tableData_Regression_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateSignup')
+data.setCell(0, 2, 'ngScripts.yahooSignUpv2')
+data.setCell(0, 3, 4272);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateUrl')
+data.setCell(1, 2, 'ngScripts.messengerTest')
+data.setCell(1, 3, 3408);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateSignup')
+data.setCell(2, 2, 'ngScripts.yahooSignupV1')
+data.setCell(2, 3, 2229);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validatemessangerLink')
+data.setCell(3, 2, 'ngScripts.messengerTest')
+data.setCell(3, 3, 73);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateRoomsmenuAvailable')
+data.setCell(4, 2, 'ngScripts.messengerTest')
+data.setCell(4, 3, 43);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validatefeaturemenuAvailable')
+data.setCell(5, 2, 'ngScripts.messengerTest')
+data.setCell(5, 3, 42);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateprivacymenuAvailable')
+data.setCell(6, 2, 'ngScripts.messengerTest')
+data.setCell(6, 3, 34);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateSignupUrl')
+data.setCell(7, 2, 'ngScripts.yahooSignupV1')
+data.setCell(7, 3, 12);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateTitle')
+data.setCell(8, 2, 'ngScripts.yahooSignupV1')
+data.setCell(8, 3, 11);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateTtitle')
+data.setCell(9, 2, 'ngScripts.messengerTest')
+data.setCell(9, 3, 9);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateBrowser')
+data.setCell(10, 2, 'ngScripts.basicNg')
+data.setCell(10, 3, 3);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateUrl')
+data.setCell(11, 2, 'ngScripts.basicNGOne')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateUrl')
+data.setCell(12, 2, 'ngScripts.basicNg')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validatedisplay')
+data.setCell(13, 2, 'ngScripts.basicNg')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateBrowser')
+data.setCell(14, 2, 'scripts.basicNg')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateTitle')
+data.setCell(15, 2, 'ngScripts.basicNGOne')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateUrl')
+data.setCell(16, 2, 'scripts.basicNg')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateSignUP')
+data.setCell(17, 2, 'ngScripts.basicNg')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateSignUP')
+data.setCell(18, 2, 'scripts.basicNg')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validatedisplay')
+data.setCell(19, 2, 'scripts.basicNg')
+data.setCell(19, 3, 0);
+window.suiteTableData['Regression_Testing']= { tableData: data, tableDiv: 'times-div-Regression_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Regression_Testing">
+              </div> <!-- times-div-Regression_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateUrl</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating the messanger page URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateTtitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating the messanger page title</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validatemessangerLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating the messanger page link</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validatefeaturemenuAvailable</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validating if the feature menu is available</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNGOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bftest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.messengerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignUpv2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">7948 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignupV1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">14990 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignUpv2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSignup</span>
+                <span class="method-start">21730 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateBrowser</span>
+                <span class="method-start">26008 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateBrowser</span>
+                <span class="method-start">26014 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNGOne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">bformethod</span>
+                <span class="method-start">26016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTitle</span>
+                <span class="method-start">26017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afmethod</span>
+                <span class="method-start">26018 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.messengerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatemessangerLink</span>
+                <span class="method-start">26019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignupV1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSignupUrl</span>
+                <span class="method-start">26093 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatedisplay</span>
+                <span class="method-start">26107 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatedisplay</span>
+                <span class="method-start">26109 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNGOne</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">bformethod</span>
+                <span class="method-start">26111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">26111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afmethod</span>
+                <span class="method-start">26114 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.messengerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">26114 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignupV1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateTitle</span>
+                <span class="method-start">29523 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSignUP</span>
+                <span class="method-start">29537 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.messengerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateTtitle</span>
+                <span class="method-start">29540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateSignUP</span>
+                <span class="method-start">29549 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignupV1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateSignup</span>
+                <span class="method-start">29552 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">31782 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.messengerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatefeaturemenuAvailable</span>
+                <span class="method-start">31785 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateUrl</span>
+                <span class="method-start">31828 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.messengerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateprivacymenuAvailable</span>
+                <span class="method-start">31830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateRoomsmenuAvailable</span>
+                <span class="method-start">31865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">31909 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">31909 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.basicNg</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">31909 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.basicNGOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftest</span>
+                <span class="method-start">31909 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignUpv2</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">32884 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ngScripts.yahooSignupV1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">33658 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

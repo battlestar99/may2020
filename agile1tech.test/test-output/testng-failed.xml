@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing]">
+  <test name="Release 3.5(failed)">
+    <classes>
+      <class name="ngScripts.yahooSignUpv2">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- ngScripts.yahooSignUpv2 -->
+      <class name="ngScripts.basicNg">
+        <methods>
+          <include name="validateBrowser"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- ngScripts.basicNg -->
+      <class name="scripts.basicNg">
+        <methods>
+          <include name="beforetest"/>
+          <include name="validateSignUP"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- scripts.basicNg -->
+      <class name="ngScripts.yahooSignupV1">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- ngScripts.yahooSignupV1 -->
+      <class name="ngScripts.basicNGOne">
+        <methods>
+          <include name="aftest"/>
+          <include name="bformethod"/>
+          <include name="bftest"/>
+          <include name="afmethod"/>
+        </methods>
+      </class> <!-- ngScripts.basicNGOne -->
+      <class name="ngScripts.messengerTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- ngScripts.messengerTest -->
+    </classes>
+  </test> <!-- Release 3.5(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

@@ -1,0 +1,265 @@
+
+
+
+15th , 16th, 22nd, 23rd - 4 classes - SQL, Web service - api testing 
+
+24th automation testing class - monday and wednesday - 7 - 930PM 
+sql - web service - performance testing - 
+
+1010 - 1230 
+
+interview class will start
+29th/ 30th - saturday/sunday 
+
+job search procedure 
+interview questions discussion - 
+mock interview - 
+
+demand and 
+supply of jobs - 100 jobs - 80 people 
+30 jobs - 60 people 
+
+form - resume + previous resume
+contract 
+
+resume - 1-2 weeks 
+
+weekend- sat, sun 
+10 - 1 
+15th - 
+java - cucumber-jar 
+C# - specflow - dll 
+
+80 - java 
+10 - python 
+5- c#
+5- ruby 
+
+hadning pop up, action class, frame 
+0 or 1 
+alert class 
+action class double click, right click 
+
+rare in the project - 
+
+
+Test management and configuration - 
+build managment system - why and how - which one
+version and repository system - why and how - which one 
+remote server - run our tests from remote server - why and how - 
+
+
+managing your code working in a team, lead/manager whats their role in automation testing 
+
+reponsibilities : 
+
+1. write automated test cases / test scripts and run them for regression, uat, smoke 
+
+sturcture - TestNG , cucumber 
+
+java project -TestNG - guico signp, dot - fimsr
+packages 
+Tests -signup.guico.tests , fimsr.dot.tests
+page object model - guico.pages, fimsr.dot.pages 
+xml - test suites or data 
+utility - common function you can create to use  - guico.uitilies
+
+cucumber 
+pacakges 
+step-def - guico.stepdef
+features - data table for data driven framework - signupTest
+page object model 
+test runner - suite 
+
+build managment system to organize our project - version control system to share our projects
+- CI/CD pipeline to run our project from remote server 
+
+1. build managment - maven, ant, gradle 
+no need to download the jar files - pom.xml - dependency/programming library managment 
+depency of the project - libraries 
+import the project - 
+maven commands to build/run/test the project - run from remote server 
+
+2. sharing our code - having multiple version of the code 
+Git - technology , software for version control and upload code in a repository 
+github, bitbucket - repository
+
+3. 
+when you are running your script in your computer - local compuer 
+
+500 test scripts - everyday 
+
+remote server - to connnected with the tests - CI/CD pipeline 
+contineous integration and contineious development 
+
+server - difference between local and remote server 
+
+
+when we should test? 
+
+applications code - development code changes 
+
+and these changes are deployed to the server - you should test 
+
+any code changes in your application - you should test it 
+you might not see any different from front-end
+
+
+
+
+Maven - Build management system 
+
+archtype - specific template for creating java project 
+
+pom.xml 
+
+project object model 
+
+
+
+
+maven, git , jenkins 
+
+java - widely used 
+
+java project vs maven project 
+
+Java project - downloading all the jar files - selenium, testng, cucumber
+this project no one can import - folder 
+src, 
+TestNG - TestNG Test, xml - TestNG Suite - TesTNG 
+tesscripts, page objects, utitlies, xml
+Cucumber - Feature - one feature file, TestRunner - test suites, multiples features together
+features, stepdef, testrunner, utitlies, page obejcts- Report 
+
+Maven Project - pom.xml - we can define the depencies pom.xml, .m2  
+anyone can import the project 
+src/test/java 
+
+tesscripts, page objects, utitlies, xml - 2 ways 
+
+features, stepdef, testrunner, utitlies, page obejcts - feature, test runner 
+
+maven have some commands to run scripts and do some more things 
+maven install - install all the dependcies 
+maven build - compound commands - install + test 
+maven test - src/test/java - apptest.java
+maven clean - cleaning the output folders 
+maven generate-source - this is creating jar files for libraries 
+
+maven test - remote server , CI/CD piplelines 
+
+xml, test runner 
+
+build managment systems commands - 
+jenkins - maven test
+
+dependcies - libraries , jar files 
+plugin - giving specific functionalities to maven 
+
+
+C:\\Users\\rznan\\Desktop\\Java Development\\programming libraries\\chromedriver.exe
+
+
+ <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.20</version>
+            <configuration>
+                <suiteXmlFiles>
+                 <suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
+        </plugin>
+
+
+<suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile>
+
+
+
+
+
+
+
+
+
+single test - testng test 
+multiple test - test suite - xml 
+maven test - point to the specific xml to run 
+
+
+jenkins - maven test 
+
+You want to share your project - to the github 
+
+Git - you can make a folder as a git folder - git starts tracking everything happenening 
+in that folder 
+
+the folder is in your local - 
+
+you can push it to remote for sharing - 
+
+version control using git - 
+sharing our code - version control 
+
+local repo - in our computer 
+remote repo - github, company repository 
+
+local repo > remote repo 
+
+changes you are doing in local - you can upload it, you can push it to remote 
+git push -u origin master 
+
+1. project is already in github repo 
+download the project - maven 
+import it in your eclipse
+you start working on that 
+
+you have to push the code to the remote 
+
+git init - to create git repo in a folder 
+git add * - to add any unadded file in the track
+git commit - commiting or saving a specific version
+
+https://github.com/battlestar99/gitMayTest.git
+
+git push is uploading your code 
+
+2. you have to create from scratch 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

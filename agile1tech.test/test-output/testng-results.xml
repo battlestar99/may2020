@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="20" passed="17">
+  <reporter-output>
+    <line>
+      <![CDATA[Validating the messanger page link]]>
+    </line>
+    <line>
+      <![CDATA[Validating the messanger page URL]]>
+    </line>
+    <line>
+      <![CDATA[Validating the messanger page title]]>
+    </line>
+    <line>
+      <![CDATA[Validating if the feature menu is available]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Testing" duration-ms="34496" started-at="2020-08-09T15:33:15Z" finished-at="2020-08-09T15:33:49Z">
+    <groups>
+    </groups>
+    <test name="Release 3.5" duration-ms="34496" started-at="2020-08-09T15:33:15Z" finished-at="2020-08-09T15:33:49Z">
+      <class name="scripts.basicNg">
+        <test-method status="PASS" signature="validateBrowser()[pri:1, instance:scripts.basicNg@735b5592]" name="validateBrowser" duration-ms="1" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrowser -->
+        <test-method status="PASS" signature="validatedisplay()[pri:2, instance:scripts.basicNg@735b5592]" name="validatedisplay" duration-ms="0" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedisplay -->
+        <test-method status="FAIL" signature="validateSignUP()[pri:3, instance:scripts.basicNg@735b5592]" name="validateSignUP" duration-ms="1" started-at="2020-08-09T11:33:44Z" finished-at="2020-08-09T11:33:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Testing validatesignip expected [12] but found [15]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Testing validatesignip expected [12] but found [15]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at scripts.basicNg.validateSignUP(basicNg.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUP -->
+        <test-method status="PASS" signature="validateUrl()[pri:4, instance:scripts.basicNg@735b5592]" name="validateUrl" duration-ms="1" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+      </class> <!-- scripts.basicNg -->
+      <class name="ngScripts.yahooSignupV1">
+        <test-method status="PASS" signature="validateSignupUrl()[pri:1, instance:ngScripts.yahooSignupV1@9629756]" name="validateSignupUrl" duration-ms="12" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupUrl -->
+        <test-method status="FAIL" signature="validateTitle()[pri:2, instance:ngScripts.yahooSignupV1@9629756]" name="validateTitle" duration-ms="11" started-at="2020-08-09T11:33:44Z" finished-at="2020-08-09T11:33:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Yahoo signup] but found [Yahoo]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Yahoo signup] but found [Yahoo]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at ngScripts.yahooSignupV1.validateTitle(yahooSignupV1.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="validateSignup()[pri:3, instance:ngScripts.yahooSignupV1@9629756]" name="validateSignup" duration-ms="2229" started-at="2020-08-09T11:33:44Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignup -->
+      </class> <!-- ngScripts.yahooSignupV1 -->
+      <class name="ngScripts.basicNg">
+        <test-method status="FAIL" signature="validateBrowser()[pri:1, instance:ngScripts.basicNg@396a51ab]" name="validateBrowser" duration-ms="3" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Test12] but found [Test]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Test12] but found [Test]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at ngScripts.basicNg.validateBrowser(basicNg.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrowser -->
+        <test-method status="PASS" signature="validatedisplay()[pri:2, instance:ngScripts.basicNg@396a51ab]" name="validatedisplay" duration-ms="1" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedisplay -->
+        <test-method status="PASS" signature="validateSignUP()[pri:3, instance:ngScripts.basicNg@396a51ab]" name="validateSignUP" duration-ms="1" started-at="2020-08-09T11:33:44Z" finished-at="2020-08-09T11:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUP -->
+        <test-method status="PASS" signature="validateUrl()[pri:4, instance:ngScripts.basicNg@396a51ab]" name="validateUrl" duration-ms="2" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+      </class> <!-- ngScripts.basicNg -->
+      <class name="ngScripts.messengerTest">
+        <test-method status="PASS" signature="validatemessangerLink()[pri:1, instance:ngScripts.messengerTest@7f9a81e8]" name="validatemessangerLink" duration-ms="73" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating the messanger page link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatemessangerLink -->
+        <test-method status="PASS" signature="validateUrl()[pri:2, instance:ngScripts.messengerTest@7f9a81e8]" name="validateUrl" duration-ms="3408" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating the messanger page URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="validateTtitle()[pri:3, instance:ngScripts.messengerTest@7f9a81e8]" name="validateTtitle" duration-ms="9" started-at="2020-08-09T11:33:44Z" depends-on-methods="ngScripts.messengerTest.validateUrl" finished-at="2020-08-09T11:33:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating the messanger page title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTtitle -->
+        <test-method status="PASS" signature="validatefeaturemenuAvailable()[pri:4, instance:ngScripts.messengerTest@7f9a81e8]" name="validatefeaturemenuAvailable" duration-ms="42" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating if the feature menu is available]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatefeaturemenuAvailable -->
+        <test-method status="PASS" signature="validateprivacymenuAvailable()[pri:5, instance:ngScripts.messengerTest@7f9a81e8]" name="validateprivacymenuAvailable" duration-ms="34" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateprivacymenuAvailable -->
+        <test-method status="PASS" signature="validateRoomsmenuAvailable()[pri:6, instance:ngScripts.messengerTest@7f9a81e8]" name="validateRoomsmenuAvailable" duration-ms="43" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRoomsmenuAvailable -->
+      </class> <!-- ngScripts.messengerTest -->
+      <class name="ngScripts.yahooSignUpv2">
+        <test-method status="PASS" signature="validateSignup()[pri:0, instance:ngScripts.yahooSignUpv2@62ee68d8]" name="validateSignup" duration-ms="4272" started-at="2020-08-09T11:33:37Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignup -->
+      </class> <!-- ngScripts.yahooSignUpv2 -->
+      <class name="ngScripts.basicNGOne">
+        <test-method status="PASS" signature="bftest()[pri:0, instance:ngScripts.basicNGOne@51081592]" name="bftest" is-config="true" duration-ms="14" started-at="2020-08-09T11:33:15Z" finished-at="2020-08-09T11:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bftest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.basicNg@396a51ab]" name="beforetest" is-config="true" duration-ms="1" started-at="2020-08-09T11:33:15Z" finished-at="2020-08-09T11:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.messengerTest@7f9a81e8]" name="beforetest" is-config="true" duration-ms="7932" started-at="2020-08-09T11:33:15Z" finished-at="2020-08-09T11:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:scripts.basicNg@735b5592]" name="beforetest" is-config="true" duration-ms="0" started-at="2020-08-09T11:33:15Z" finished-at="2020-08-09T11:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.yahooSignUpv2@62ee68d8]" name="beforetest" is-config="true" duration-ms="7042" started-at="2020-08-09T11:33:23Z" finished-at="2020-08-09T11:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ngScripts.yahooSignupV1@9629756]" name="beforetest" is-config="true" duration-ms="6713" started-at="2020-08-09T11:33:30Z" finished-at="2020-08-09T11:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="bformethod()[pri:0, instance:ngScripts.basicNGOne@51081592]" name="bformethod" is-config="true" duration-ms="1" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bformethod -->
+        <test-method status="PASS" signature="validateTitle()[pri:1, instance:ngScripts.basicNGOne@51081592]" name="validateTitle" duration-ms="1" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="afmethod()[pri:0, instance:ngScripts.basicNGOne@51081592]" name="afmethod" is-config="true" duration-ms="1" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method status="PASS" signature="validateUrl()[pri:2, instance:ngScripts.basicNGOne@51081592]" name="validateUrl" duration-ms="2" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="bformethod()[pri:0, instance:ngScripts.basicNGOne@51081592]" name="bformethod" is-config="true" duration-ms="0" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bformethod -->
+        <test-method status="PASS" signature="afmethod()[pri:0, instance:ngScripts.basicNGOne@51081592]" name="afmethod" is-config="true" duration-ms="0" started-at="2020-08-09T11:33:41Z" finished-at="2020-08-09T11:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ngScripts.messengerTest@7f9a81e8]" name="afterTest" is-config="true" duration-ms="975" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="aftest()[pri:0, instance:ngScripts.basicNGOne@51081592]" name="aftest" is-config="true" duration-ms="0" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:scripts.basicNg@735b5592]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:ngScripts.basicNg@396a51ab]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-08-09T11:33:47Z" finished-at="2020-08-09T11:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:ngScripts.yahooSignUpv2@62ee68d8]" name="aftertest" is-config="true" duration-ms="774" started-at="2020-08-09T11:33:48Z" finished-at="2020-08-09T11:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:ngScripts.yahooSignupV1@9629756]" name="aftertest" is-config="true" duration-ms="832" started-at="2020-08-09T11:33:48Z" finished-at="2020-08-09T11:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- ngScripts.basicNGOne -->
+    </test> <!-- Release 3.5 -->
+  </suite> <!-- Regression Testing -->
+</testng-results>
