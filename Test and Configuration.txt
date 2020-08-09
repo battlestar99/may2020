@@ -223,9 +223,22 @@ git commit - commiting or saving a specific version
 
 https://github.com/battlestar99/gitMayTest.git
 
-git push is uploading your code 
+git push is uploading your code to the repo 
+git pull is downloading updated code from remote web
 
 2. you have to create from scratch 
+
+
+jenkins can fetch code from
+
+global user name and global email - identification to the get 
+username and email is pushing code 
+
+username 
+password 
+for your github account 
+
+
 
 
 
